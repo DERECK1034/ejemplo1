@@ -2,7 +2,7 @@
 
 @section('contenido')
 
-<center><h1>Editar Mascota</h1>
+<center><h1>Editar una Mascota</h1>
 <br> 
 <form action = "{{ route('guardacambios') }}" method="POST" enctype ="multipart/form-data">
         {{ csrf_field()}}
